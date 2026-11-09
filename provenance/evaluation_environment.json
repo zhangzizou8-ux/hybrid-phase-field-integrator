@@ -1,0 +1,13 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "torch": "2.12.1+cu130",
+  "cupy": "14.1.1",
+  "CUDA": "13.0",
+  "CUDA_runtime": 13020,
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU"
+}

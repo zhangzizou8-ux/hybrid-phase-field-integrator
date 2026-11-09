@@ -1,0 +1,82 @@
+{
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.6",
+    "torch": "2.12.1+cu130",
+    "cupy": "14.1.1",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "skimage": "0.25.2",
+    "matplotlib": "3.10.9"
+  },
+  "torch_CUDA": "13.0",
+  "cuDNN": 92000,
+  "cupy_runtime": 13020,
+  "CUDA_driver": 13040,
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "device_properties": "_CudaDeviceProperties(name='NVIDIA GeForce RTX 3050 Laptop GPU', major=8, minor=6, total_memory=4095MB, multi_processor_count=16, uuid=c2cf7518-c474-790f-9ef3-a19141f8be9b, pci_bus_id=1, pci_device_id=0, pci_domain_id=0, L2_cache_size=1MB)",
+  "model": {
+    "c_min": 0.09222412109375,
+    "c_max": 0.231201171875
+  },
+  "model_epoch": 39,
+  "unroll": 40,
+  "seq_len": 10,
+  "frame_step": 3,
+  "FOM_parameters": {
+    "nx": 512.0,
+    "ny": 512.0,
+    "dt": 0.0005,
+    "gamma_int": 0.091,
+    "gamma_gb": 1.02,
+    "delta": 0.0072,
+    "C11": 174900000000.0,
+    "C12": 117600000000.0,
+    "C44": 71600000000.0,
+    "f0": 1270000000.0,
+    "c_gamma": 0.1,
+    "c_gprime": 0.22,
+    "c_matrix": 0.13,
+    "lam": 5.0,
+    "dc": 0.12,
+    "koA": 0.0225,
+    "ktA": 15474.98995846757,
+    "A_well": 829.3234179060951,
+    "kappa_c": 18.65977690288714,
+    "D_bulk": 10.0,
+    "D_gb": 30.0,
+    "S_stab": 8293.23417906095,
+    "elastic_scale": 150.0,
+    "GB_penalty": 50.0,
+    "alpha_pinning": 25.0,
+    "beta_zener": 1500.0,
+    "W_gb": 1000.0,
+    "kappa_eta": 160.0,
+    "L_mobility": 0.4,
+    "num_grains": 6.0
+  },
+  "FOM_reference_step_comparisons": [
+    {
+      "fine_step": 1,
+      "c_max_abs_difference": 0.0,
+      "eta_max_abs_difference": 0.0
+    },
+    {
+      "fine_step": 2,
+      "c_max_abs_difference": 0.0,
+      "eta_max_abs_difference": 0.0
+    },
+    {
+      "fine_step": 3,
+      "c_max_abs_difference": 0.0,
+      "eta_max_abs_difference": 0.0
+    }
+  ],
+  "run03_matches_actual_NoPDE_inference": true,
+  "torch_default_flags": {
+    "matmul_tf32": false,
+    "cudnn_tf32": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "reference_root": "D:\\vscode work\\xiangchang\\LSTM\\model03\\run",
+  "runs": [
+    0,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "repeat_runs": [
+    0,
+    35
+  ],
+  "input_channels": 9,
+  "output_channels": 7,
+  "history": 10,
+  "frame_step": 3,
+  "learned_steps": 80,
+  "learned_equivalent_fine_steps": 6000,
+  "local_PDE_updates": false,
+  "normalized_mean_control": false,
+  "FOM_interval": 40,
+  "FOM_fine_steps_per_burst": 2000,
+  "FOM_endpoints": [
+    262000,
+    504000
+  ],
+  "terminal": 504000,
+  "torch_seed": 20261030,
+  "network_dtype": "float32",
+  "FOM_dtype": "float64",
+  "TF32": false,
+  "archive_cleanup_after_all_acceptance": "User 2026-10-30 instructed deleting all V1.5 trajectories after completion; retain file hashes, metrics, code and plot ROI data",
+  "source_files": [
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\run03.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\run03.py",
+      "SHA256": "539751bd6ba6b18b03db73aa2bb00ec17afa247b12d50acc1c63d1f19eb1f003"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\图\\图图\\图9\\F9a_run.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\图\\图图\\图9\\F9a_run.py",
+      "SHA256": "a968f68b90b1c261e42ca2d5ed4e0ba0c87b2e363c0fc6727653b2655d222372"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\图\\图图\\图9\\F9a.pth",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\weights\\F9a.pth",
+      "SHA256": "fc30c893680e7d564888a891c368ff39d587fff86e9e63fb7dcc8926c04c76e0"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\基线方法\\_v15_run_frozen.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\run_frozen_nolocal.py",
+      "SHA256": "3bdc0675bee917812f7a7935f313ed5921310774aad908d5310aa6d1ae60cbab"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\多晶3.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\reference_多晶3.py",
+      "SHA256": "67d5302f166b4c3664fc2de48925d0941398b1fbf853bb4679786bd4ec1e0058"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\取消PDE修正\\evaluate_no_pde_mean.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\historical_evaluate_no_pde_mean.py",
+      "SHA256": "6e9300536033a699219d2470e3e368ea116b59938e18223b9ff24e82faa924b7"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\取消PDE修正\\run_no_pde_mean.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\NoPDE_inference_reference.py",
+      "SHA256": "9427dcb266a32b53d546071dadbaf478200ef3678e9d8822950da688880c3d4c"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\train03.py",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\source\\training_reference_train03.py",
+      "SHA256": "eb967793d5135c9d2b5f92bd1131abcdee9c078c38ae3856ca9a4d7b23b9f33b"
+    },
+    {
+      "original": "D:\\vscode work\\xiangchang\\LSTM\\model03\\图\\图图\\图6\\re\\profiles\\all_profile_candidates.csv",
+      "frozen": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\V1.5\\V1.5_NoLocal_Unified\\data_references\\all_profile_candidates.csv",
+      "SHA256": "b0bda15696e5c0dcec9f72486c9c7477b6214e14f18146d3d66f680e67c02830"
+    }
+  ]
+}

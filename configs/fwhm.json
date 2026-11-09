@@ -1,0 +1,24 @@
+{
+  "indicator": "clip(2*(1-sum(eta_i**2)),0,1)",
+  "sampling_range_px": [
+    -12,
+    12
+  ],
+  "sampling_step_px": 0.25,
+  "dx_nm": 2.0,
+  "interpolation": "scipy.ndimage.map_coordinates order=1 mode=grid-wrap",
+  "reference_peak_window_px": 2.0,
+  "prediction_peak_window_px": 6.0,
+  "peak_height": 0.1,
+  "prominence": 0.05,
+  "half_maximum": "absolute peak height / 2",
+  "minimum_pairs": 10,
+  "reference_width_verification_tolerance_nm": 0.0002,
+  "tolerance_source": "evaluate_no_pde_mean.py and V1.5 evaluate_nolocal.py pre-existing 2e-4 nm",
+  "no_extra_width_thresholds": true,
+  "no_candidate_resampling": true,
+  "field_computation_dtype": "float32",
+  "precision_selection": "reference-only comparison before model results; float32 reproduces all 122880 archived reference peak locations, float64 differs in 1778 flat peaks",
+  "aggregation": "profiles within frame, valid frames within Run, equal Runs; ddof=1",
+  "outputs_per_run": 80
+}

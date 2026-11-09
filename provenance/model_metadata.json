@@ -1,0 +1,96 @@
+[
+  {
+    "method": "Hybrid",
+    "checkpoint": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\FWHM核验\\weights\\Hybrid_best_model.pth",
+    "SHA256": "9679d84595626003e16cbfbe5da7dda27686c0b91fa52dc71e9371d19831a868",
+    "state_key": "model_state_dict",
+    "normalization": {
+      "c_min": 0.09222412109375,
+      "c_max": 0.231201171875
+    },
+    "metadata": {
+      "epoch": 39,
+      "unroll": 40,
+      "seq_len": 10,
+      "frame_step": 3
+    },
+    "input_kernel_shape": [
+      16,
+      9,
+      3,
+      3
+    ],
+    "output_kernel_shape": [
+      7,
+      25,
+      3,
+      3
+    ]
+  },
+  {
+    "method": "No-local",
+    "checkpoint": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\FWHM核验\\no_local_bundle\\weights\\F9a.pth",
+    "SHA256": "fc30c893680e7d564888a891c368ff39d587fff86e9e63fb7dcc8926c04c76e0",
+    "state_key": "model_state_dict",
+    "normalization": {
+      "c_min": 0.09222412109375,
+      "c_max": 0.231201171875
+    },
+    "metadata": {
+      "epoch": 39,
+      "unroll": 40,
+      "seq_len": 10,
+      "frame_step": 3
+    },
+    "input_kernel_shape": [
+      16,
+      9,
+      3,
+      3
+    ],
+    "output_kernel_shape": [
+      7,
+      25,
+      3,
+      3
+    ]
+  },
+  {
+    "method": "No-PDE",
+    "checkpoint": "D:\\vscode work\\xiangchang\\LSTM\\model03\\投稿改\\论文修改\\FWHM核验\\weights\\best_no_pde_mean.pt",
+    "SHA256": "4f66d86aaaa58e7e7aa1ed4b34ef9a6717e94719d8014244ebcd246dae88fd9b",
+    "state_key": "model_state_dict",
+    "metadata": {
+      "kind": "convlstm_no_pde_keep_mean_batch2_v2",
+      "epoch": 39,
+      "unroll": 40,
+      "formal_best": true,
+      "training_config": {
+        "batch": 2,
+        "gradient_accumulation": 1,
+        "seed": 20261028,
+        "epochs": 40,
+        "lr": 0.001,
+        "seq_len": 10,
+        "frame_step": 3,
+        "trunc": 20,
+        "stride": 1,
+        "unroll_start": 8,
+        "unroll_step": 4,
+        "unroll_max": 40,
+        "fp32": true,
+        "local_pde_correction": false,
+        "normalized_mean_control": true
+      },
+      "norm_params": {
+        "c_min": 0.09222412109375,
+        "c_max": 0.231201171875
+      }
+    },
+    "normalization": {
+      "c_min": 0.09222412109375,
+      "c_max": 0.231201171875
+    },
+    "original_inference_manifest_SHA256": "fb5b54da5ef1a92d6923db4b680e5e68e5c5d478556faa30f4598a5193a2b590"
+  }
+]
